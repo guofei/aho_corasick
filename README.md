@@ -1,8 +1,10 @@
 # AhoCorasick
 
-**TODO: Add description**
+**A Elixir implementation of the AhoCorasick string matching algorithms**
 
-## Installation
+## How to use
+
+TODO
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `aho_corasick` to your list of dependencies in `mix.exs`:
