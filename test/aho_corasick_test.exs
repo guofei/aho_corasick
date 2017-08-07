@@ -2,7 +2,11 @@ defmodule AhoCorasickTest do
   use ExUnit.Case
   doctest AhoCorasick
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  @tag :skip
+  test "returns matched substrings" do
+  end
+
+  @tag :skip
+  test "returns multiple matched substrings" do
   end
 end
