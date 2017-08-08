@@ -6,7 +6,8 @@ defmodule AhoCorasickTest do
   test "returns matched substrings" do
   end
 
-  @tag :skip
   test "returns multiple matched substrings" do
+    hits = AhoCorasick.match("cd000ab", ["ab", "cd"])
+    assert hits == ["ab", "cd"]
   end
 end
